@@ -1,0 +1,52 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+*.md
+!Readme.md
+
+# Build and package output
+dist/
+build/
+*.egg-info/
+
+# Generated DBMind-AI data
+data/chroma/
+data/schema_context.json
+
+# Local databases, dumps, and logs
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+*.log
+data/*.sql
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
